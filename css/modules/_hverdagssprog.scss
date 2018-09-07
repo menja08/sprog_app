@@ -1,0 +1,42 @@
+header {
+  // color: lightgreen;
+  text-align: center;
+}
+
+section {
+  margin: auto;
+  width: 95%;
+  font-size: large;
+}
+
+h1, h3 {color: lightgreen}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button{
+  width: 25%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+button img {
+  width: 50%;
+  height: 50%;
+}
+
+.my_checkbox {
+  display: flex;
+}
+
+.my_checkbox section {
+  border: 1px solid blue;
+}
+
+.my_checkbox input {
+  // float: left;
+  // text-align: left;
+  width: 10%;
+}
