@@ -1,10 +1,14 @@
 .kontor {
-  h1, h3 {
+  h2, h3 {
     color: $color-pri-green;
   }
 
   header {
     // color: lightgreen;
+    text-align: center;
+  }
+  h1 {
+    color: $color-pri-green;
     text-align: center;
   }
 

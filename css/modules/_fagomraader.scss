@@ -9,10 +9,28 @@
     margin: auto;
     width: 95%;
     font-size: large;
+    margin-bottom: 4%;
   }
 
-  h1, h3 {
+  section span {
+    font-family: $font-primary;
+    font-weight: 300;
+    font-size: medium;
+  }
+
+  .small_title {
     color: $color-pri-green;
+    font-family: $font-primary;
+    font-weight: 500;
+    margin-bottom: 2%;
+  }
+
+  h1 {
+    color: $color-pri-green;
+    text-align: center;
+  }
+  p {
+    padding-left: 2%;
   }
 
   img {
@@ -31,23 +49,6 @@
     height: 50%;
   }
 
-  /*.search {
-    // background: lightblue;
-    width: 95%;
-    display: flex;
-  }*/
-  /*.search img {
-    width: 10%;
-    height: 10%;
-  }*/
-  /*input {
-    width: 85%;
-    margin-left: 5%;
-    font-size: larger;
-    border: 1px solid lightgreen;
-
-    height: auto;
-  }*/
 
   .topic {
     display: flex;
@@ -65,29 +66,6 @@
     padding: 5px;
   }
 
-
-
-  /*.spil img {
-    width: 90%;
-    height: auto;
-    // border: 1px solid blue;
-    overflow: hidden;
-  }*/
-
-
-
-  // spil on håndværker
-  /*.spil_om_haandvaerker {
-    display: flex;
-    flex-wrap: wrap;
-  }*/
-
-  /*.one {
-    width: 45%;
-    margin: 1%;
-    height: auto;
-
-  }*/
 
   .right_arrow {
     float: right;
