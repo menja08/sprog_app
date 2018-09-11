@@ -1,11 +1,22 @@
 .kontor {
-  h1, h3 {
+  h3 {
     color: $color-pri-green;
   }
 
   header {
     // color: lightgreen;
     text-align: center;
+  }
+  h1 {
+    color: $color-pri-green;
+    text-align: center;
+  }
+
+  section span {
+    font-family: $font-primary;
+    font-weight: 500;
+    font-size: larger;
+    color: $color-pri-green;
   }
 
   .search {
@@ -56,6 +67,14 @@
     height: auto;
   }
 
+  .spil {
+    margin-top: 4%;
+  }
+
+  .spil img {
+    margin-left: 0;
+  }
+
   button {
     width: 20%;
     margin-left: 2%;
@@ -81,9 +100,11 @@
   // lower section of page
   .try {
     display: flex;
+    font-family: $font-primary;
   }
 
   .try section {
-    width: 30%;
+    width: 32%;
+
   }
 }

@@ -1,5 +1,8 @@
 .blyant {
-  h1 {color: $color-pri-green}
+  h1 {
+    color: $color-pri-green;
+    text-align: center;
+  }
 
   header {text-align: center}
 
