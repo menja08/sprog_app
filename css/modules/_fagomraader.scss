@@ -1,123 +1,99 @@
-header {
-  // color: lightgreen;
-  text-align: center;
-}
+.fagomraader {
 
-section {
-  margin: auto;
-  width: 95%;
-  font-size: large;
-}
+  header {
+    // color: lightgreen;
+    text-align: center;
+  }
 
-h1, h3 {color: lightgreen}
+  section {
+    margin: auto;
+    width: 95%;
+    font-size: large;
+  }
 
-img {
-  width: 100%;
-  height: auto;
-}
+  h1, h3 {
+    color: $color-pri-green;
+  }
 
-button{
-  width: 25%;
-  margin-left: 2%;
-  margin-right: 2%;
-}
+  img {
+    width: 100%;
+    height: auto;
+  }
 
-button img {
-  width: 50%;
-  height: 50%;
-}
+  button {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 
-.search {
-  // background: lightblue;
-  width: 95%;
-  display: flex;
-}
-.search img {
-  width: 10%;
-  height: 10%;
-}
+  button img {
+    width: 50%;
+    height: 50%;
+  }
+
+  /*.search {
+    // background: lightblue;
+    width: 95%;
+    display: flex;
+  }*/
+  /*.search img {
+    width: 10%;
+    height: 10%;
+  }*/
+  /*input {
+    width: 85%;
+    margin-left: 5%;
+    font-size: larger;
+    border: 1px solid lightgreen;
+
+    height: auto;
+  }*/
+
+  .topic {
+    display: flex;
+    margin-top: 10px;
+  }
+  // view is images
+  .view {
+    width: 20%;
+  }
+
+  // words is description text
+  .words {
+    width: 70%;
+    border: 1px solid blueviolet;
+    padding: 5px;
+  }
 
 
-.topic {
-  display: flex;
-  margin-top: 10px;
-}
-// view is images
-.view {
-  width: 20%;
-}
 
-// words is description text
-.words {
-  width: 70%;
-  border: 1px solid blueviolet;
-  padding: 5px;
-}
+  /*.spil img {
+    width: 90%;
+    height: auto;
+    // border: 1px solid blue;
+    overflow: hidden;
+  }*/
 
-.spil {
-  width: 95%;
-  height: auto;
-  // border: 1px solid red;
-  display: flex;
-  flex-direction: column;
-}
 
-.spil img {
-  width: 90%;
-  height: auto;
-  // border: 1px solid blue;
-  overflow: hidden;
-}
 
-.try {
-  display: flex;
-}
+  // spil on håndværker
+  /*.spil_om_haandvaerker {
+    display: flex;
+    flex-wrap: wrap;
+  }*/
 
-.try section {
-  width: 30%;
-}
+  /*.one {
+    width: 45%;
+    margin: 1%;
+    height: auto;
 
-// spil on håndværker
-.spil_om_haandvaerker {
-  display: flex;
-  flex-wrap: wrap;
-}
+  }*/
 
-.one {
-  width: 45%;
-  margin: 1%;
-  height: auto;
+  .right_arrow {
+    float: right;
+  }
 
-}
 
-.right_arrow {
-  float: right;
-}
 
-a {
-  text-decoration: none;
-}
 
-.hammer {
-  display: flex;
-  flex-direction: column;
-}
-
-.audio_icon {
-  margin-left: 80%;
-  width: 20%;
-}
-
-.hammer_image_detail {
-  width: 80%;
-}
-
-.hammer_image_detail img {
-  width: 50%;
-}
-
-.p1 {
-  border: 2px solid lightgreen;
-  font-size: larger;
-  padding: 2%;
 }
