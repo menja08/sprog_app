@@ -1,0 +1,23 @@
+
+.mainMineOrdHammer{
+  padding: 0 5vw;
+  h1{
+    text-align: center;
+    color: $color-pri-green;
+    font-weight: 300;
+  }
+  .mineNoterArticle{
+    border: 1px solid $color-pri-green;
+    height: 8rem;
+    p{
+      margin: 0.3rem auto auto 0.3rem;
+      font-size: 1.2rem;
+    }
+  }
+  .mineOrdLydIkon{
+    height: 50px;
+    width: auto;
+    margin-top: 0.5rem;
+    float: right;
+  }
+}

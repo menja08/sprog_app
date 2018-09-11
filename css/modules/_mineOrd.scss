@@ -1,0 +1,57 @@
+.mainMineOrd{
+  padding: 0 5vw;
+  h1{
+    text-align: center;
+    color: $color-pri-green;
+    font-weight: 300;
+  }
+  .tilfojOrd{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      height: 40px;
+      width: auto;
+      margin-right: 1rem;
+    }
+    p{
+      color: $color-pri-darkblue;
+      border: 1px solid  $color-pri-darkblue;
+      padding: 7px 40px 7px 7px;
+      font-size: 1.3rem;
+    }
+  }
+  h2{
+    color: $color-pri-green;
+    font-weight: 300;
+  }
+  .mineOrdOrd{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    margin: 2vw auto;
+    img{
+      width: 20vw;
+      height: 20vw;
+      overflow: hidden;
+      vertical-align: middle;
+      margin-right: 2vw;
+    }
+    article{
+      border: 1px solid $color-pri-darkblue;
+      height: 20vw;
+      width: 68vw;
+      .tekstGreen{
+        color: $color-pri-green;
+        margin: 0.1rem;
+        font-size: 1rem;
+      }
+      .tekstBlue{
+        color: $color-pri-darkblue;
+        margin: 0.1rem;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
