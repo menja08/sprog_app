@@ -1,0 +1,48 @@
+.spil_om_kontor {
+
+  section {
+    margin: auto;
+    width: 95%;
+    font-size: large;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .spil {
+    width: 95%;
+    height: auto;
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spil_images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .one {
+    width: 45%;
+    margin: 1%;
+    height: auto;
+
+  }
+
+  .right_arrow {
+    float: right;
+  }
+
+  button {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  button img {
+    width: 50%;
+    height: 50%;
+  }
+}

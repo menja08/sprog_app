@@ -1,0 +1,93 @@
+.haandvaerker {
+
+  // width: 100%;
+  // margin: auto;
+
+  h1, h3 {
+    color: $color-pri-green;
+  }
+
+  header {
+    // color: lightgreen;
+    text-align: center;
+  }
+
+  .search {
+    width: 100%;
+    display: flex;
+  }
+
+  .search img {
+    width: 10%;
+    height: 10%;
+  }
+
+  input {
+    width: 85%;
+    margin-left: 6%;
+    font-size: larger;
+    border: 1px solid $color-pri-green;
+    padding: 0;
+    height: auto;
+  }
+
+  section {
+    margin: auto;
+    width: 98%;
+    // font-size: large;
+  }
+
+  .topic {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  // view is images
+  .view {
+    width: 25%;
+  }
+
+  // words is description text
+  .words {
+    width: 70%;
+    border: 1px solid $color-pri-green;
+    padding: 5px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  button {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  button img {
+    width: 50%;
+    height: 50%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .small_title {
+    color: $color-pri-green;
+    font-family: $font-primary;
+    font-weight: 500;
+    margin-bottom: 2%;
+  }
+
+// lower section of page
+  .try {
+    display: flex;
+  }
+
+  .try section {
+    width: 30%;
+  }
+}

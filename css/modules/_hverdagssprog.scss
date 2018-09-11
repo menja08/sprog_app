@@ -1,42 +1,74 @@
-header {
-  // color: lightgreen;
-  text-align: center;
-}
+.hverdagssprog {
 
-section {
-  margin: auto;
-  width: 95%;
-  font-size: large;
-}
+  header {
+    color: $color-pri-green;
+    text-align: center;
+  }
 
-h1, h3 {color: lightgreen}
+  section {
+    margin: auto;
+    width: 95%;
+    // font-size: large;
+  }
 
-img {
-  width: 100%;
-  height: auto;
-}
+  /*h1, h3 {
+    color: blue;
+    padding-top: 0;
+  }*/
 
-button{
-  width: 25%;
-  margin-left: 2%;
-  margin-right: 2%;
-}
+  img {
+    width: 100%;
+    height: auto;
+    // border: 1px solid red;
+  }
 
-button img {
-  width: 50%;
-  height: 50%;
-}
+  button {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 
-.my_checkbox {
-  display: flex;
-}
+  button img {
+    width: 50%;
+    height: 50%;
+  }
 
-.my_checkbox section {
-  // border: 1px solid blue;
-}
+  .my_checkbox {
+    display: flex;
+  }
 
-.my_checkbox input {
-  // float: left;
-  // text-align: left;
-  width: 10%;
+  .my_checkbox section {
+    // border: 1px solid blue;
+  }
+
+  .my_checkbox input {
+    // float: left;
+    // text-align: left;
+    width: 10%;
+  }
+
+  // change text box area
+  .words {
+    padding-top: 0;
+    border: 1px solid $color-pri-green;
+    width: 70%;
+    padding-left: 5px;
+  }
+
+  .view {
+    width: 25%;
+  }
+
+  .topic {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .small_title {
+    color: $color-pri-green;
+    font-family: $font-primary;
+    font-weight: 500;
+  }
+
 }

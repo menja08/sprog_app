@@ -1,0 +1,48 @@
+.hammer {
+
+  h1 {color: $color-pri-green}
+
+  header {text-align: center}
+
+/*a {
+    text-decoration: none;
+  }*/
+
+.hammer_words {
+  display: flex;
+  flex-direction: column;
+}
+
+.audio_icon {
+  margin-left: 78%;
+  width: 20%;
+}
+
+.hammer_image_detail {
+  width: 80%;
+}
+.hammer_image_detail img {
+  width: 50%;
+  margin-left: 30%;
+}
+
+.p1 {
+  border: 2px solid $color-pri-green;
+  font-size: larger;
+  padding: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+  button {
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  button img {
+    width: 50%;
+    height: 50%;
+  }
+
+}
