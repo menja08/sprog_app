@@ -1,0 +1,56 @@
+$width: 4rem;
+$height: $width;
+
+body{
+  margin: 0;
+}
+
+video{
+  position: fixed;
+  width: 100%;
+  height: 50%;//100%;
+  object-fit: cover;
+}
+
+button{
+  position: fixed;
+  width: $width;
+  height: $height;
+
+  &#switch{
+    top: 0;
+    right: 0;
+  }
+
+  &#capture{
+    bottom: 50%;//0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+canvas{
+  display: none;
+  // width: 100%;
+  // height: 50%;
+}
+
+img{
+  position: fixed;
+  top: 50%;//0;
+  left: 25%;//0;
+  margin-top: 6%;
+}
+
+#se_dit_billed {
+  // background: blue;
+  color: #7DD7AA;
+  font-family: "Ubuntu", sans-serif;
+  position: fixed;
+  bottom: 15%;
+  left: 25%;
+}
+
+a {
+  text-decoration: none;
+}

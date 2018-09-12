@@ -54,9 +54,10 @@
 
 <main class="mainTilfojOrd">
     <h1>Tilføj ord</h1>
-    <form>
+    <form action="./2.capture/tag_billede.html">
         <input id="formOrd" type="text" name="ord" placeholder="Skriv ord">
-        <input type="image" name="billede" placeholder="Tilføj billede">
+        <!--her er der tilføjet "id = img"-->
+        <input type="image" name="billede" placeholder="Tilføj billede" id="img">
         <textarea placeholder="Skriv note"></textarea>
         <input type="file" name="lyd">
     </form>
@@ -68,5 +69,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/script.js"></script>
+<script src="2.capture/js/se_dit_billede.js"></script>
 </body>
 </html>
