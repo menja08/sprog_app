@@ -1,0 +1,21 @@
+
+.mainPronominerIntro{
+  h1{
+    text-align: center;
+    color: $color-pri-green
+  }
+  .pronominerTabel{
+    width: 100%;
+  }
+  a{
+    background-color: $color-pri-green;
+    color: $color-pri-white;
+    text-decoration: none;
+    width: 48%;
+    height: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 5vw auto;
+  }
+}

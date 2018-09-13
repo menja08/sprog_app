@@ -1,0 +1,25 @@
+.mainUndervisning{
+  h1{
+    text-align: center;
+    color: $color-pri-green
+  }
+  h3{
+    color: $color-pri-green;
+    margin: 1.5rem 0 0.4rem 0;
+  }
+  .undervisningKategorier{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    a{
+      background-color: $color-pri-green;
+      color: $color-pri-white;
+      text-decoration: none;
+      width: 48%;
+      height: 3rem;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+    }
+  }
+}

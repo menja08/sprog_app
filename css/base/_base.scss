@@ -5,7 +5,7 @@
 $color-pri-black: #333333;
 $color-pri-darkblue: #2B2D5C;
 $color-pri-lightblue: #9AE6D7;
-$color-pri-green: #7DD7AA;
+$color-pri-green: #7dd7aa;
 $color-pri-white: #FFFFFF;
 
 // ---------Font---------
@@ -45,4 +45,14 @@ html, body{
   margin: 0;
   height: 100%;
   width: 100%;
+}
+
+main{
+  padding: 0 5vw!important;
+}
+
+.tilbageKnap{
+  width: 60px!important;
+  position: relative;
+  padding: 5vw 0!important;
 }

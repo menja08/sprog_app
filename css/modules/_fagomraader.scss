@@ -1,7 +1,6 @@
 .fagomraader {
 
   header {
-    // color: lightgreen;
     text-align: center;
   }
 
@@ -62,7 +61,7 @@
   // words is description text
   .words {
     width: 70%;
-    border: 1px solid blueviolet;
+    border: 1px solid $color-pri-darkblue;
     padding: 5px;
   }
 

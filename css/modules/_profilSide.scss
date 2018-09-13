@@ -1,0 +1,66 @@
+
+
+.profilSide{
+  display: none;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $color-pri-green;
+  .topNavWrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8rem 0.8rem;
+    img{
+      height: 40px;
+      width: auto;
+    }
+  }
+  .profile{
+    padding: 0 5%;
+    .profileImg{
+      display: flex;
+      width: 35%;
+      margin: 1rem auto;
+      border-radius: 50%;
+    }
+    h2{
+      color: $color-pri-white;
+      text-align: center;
+    }
+    h3{
+      color: $color-pri-white;
+      margin-bottom: 0.7rem;
+    }
+    .sprogNiveauBar{
+      width: 100%;
+      background-color: #d3d3d3;
+      .sprogNiveauBarFarve{
+        width: 63%;
+        background-color: $color-pri-white;
+        height: 20px;
+      }
+    }
+    .profilePoints{
+      color: $color-pri-white;
+      margin-top: -0.5rem;
+      line-height: 130%;
+    }
+    .top3Venner{
+      display: flex;
+      justify-content: space-between;
+      .top3VennerVen{
+        text-align: center;
+        img{
+          height: 70px;
+          border-radius: 50%;
+        }
+        p{
+          margin-top: 0;
+          text-align: center;
+          color: $color-pri-white;
+        }
+      }
+    }
+  }
+}

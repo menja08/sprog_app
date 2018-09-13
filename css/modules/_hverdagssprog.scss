@@ -14,15 +14,13 @@
 
   section {
     margin: auto;
-    width: 95%;
-    // font-size: large;
+    width: 100%;
   }
 
 
   img {
     width: 100%;
     height: auto;
-    // border: 1px solid red;
   }
 
   button {
@@ -39,16 +37,10 @@
   .my_checkbox {
     display: flex;
     font-family: $font-primary;
-    font-weight: 100;
-  }
-
-  .my_checkbox section {
-    // border: 1px solid blue;
+    font-weight: 300;
   }
 
   .my_checkbox input {
-    // float: left;
-    // text-align: left;
     width: 10%;
   }
 
@@ -75,7 +67,7 @@
   .small_title {
     color: $color-pri-green;
     font-family: $font-primary;
-    font-weight: 500;
+    font-weight: 300;
   }
 
 }

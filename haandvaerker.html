@@ -8,50 +8,89 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<main class="haandvaerker">
 <header>
     <div class="topNavWrapper">
-        <img src="images/ikoner/profile.png">
+        <img class="profilIcon" src="images/ikoner/profile.png">
         <img src="images/logo/storHvidUdenBaggrund.png">
         <img class="menuOpen" src="images/ikoner/menu.png">
     </div>
-
     <menu class="mainMenu">
         <div class="topNavWrapper">
-            <img src="images/ikoner/profile.png">
+            <img class="profilIcon" src="images/ikoner/profile.png">
             <img src="images/logo/storHvidUdenBaggrund.png">
             <img class="menuClose" src="images/ikoner/menuClose.png">
         </div>
         <nav>
-            <a href="#">
+            <a href="kom_godt_igang.html">
                 <img src="images/ikoner/infoGreen.png">
                 <p>Kom godt igang</p>
             </a>
-            <a href="#">
-                <img src="images/ikoner/infoGreen.png">
+            <a href="hverdagssprog.html">
+                <img src="images/ikoner/speech-bubbleGreen.png">
                 <p>Hverdag</p>
             </a>
-            <a href="#">
-                <img src="images/ikoner/infoGreen.png">
+            <a href="fagomraader.html">
+                <img src="images/ikoner/puzzleGreen.png">
                 <p>Fagområder</p>
             </a>
-            <a href="#">
-                <img src="images/ikoner/infoGreen.png">
+            <a href="undervisning.html">
+                <img src="images/ikoner/padnoteGreen.png">
                 <p>Undervisning</p>
             </a>
-            <a href="#">
-                <img src="images/ikoner/infoGreen.png">
+            <a href="mine_ord.html">
+                <img src="images/ikoner/bookmarkGreen.png">
                 <p>Mine ord</p>
             </a>
         </nav>
+        <div class="menuIkonerBund">
+            <a href="#">LOG UD</a>
+            <img src="images/ikoner/searchWhite.png">
+        </div>
     </menu>
-    </header>
+
+</header>
+<section class="profilSide">
+    <div class="topNavWrapper">
+        <img class="profilIcon" src="images/ikoner/profile.png">
+        <img src="images/logo/storHvidUdenBaggrund.png">
+        <img class="menuOpen" src="images/ikoner/menu.png">
+    </div>
+    <section class="profile">
+        <img class="profileImg" src="images/profile/profil-jonas-fotograf-1000px-1-kopi%202.jpg">
+        <h2>Jonas Bonde</h2>
+        <h3>Sprog-niveau</h3>
+        <div class="sprogNiveauBar">
+            <div class="sprogNiveauBarFarve"></div>
+        </div>
+        <h3>Score</h3>
+        <p class="profilePoints">Denne dag: <strong>560</strong> point<br>
+            Denne uge: <strong>2390</strong> point<br>
+            Denne måned: <strong>10900</strong> point</p>
+        <h3>Top 3 venner - Denne uge</h3>
+        <div class="top3Venner">
+            <div class="top3VennerVen">
+                <img src="images/profile/profil-jonas-fotograf-1000px-1-kopi%202.jpg">
+                <p>Jonas Bonde<br><strong>2390</strong>point</p>
+            </div>
+            <div class="top3VennerVen">
+                <img src="images/profile/profil-jonas-fotograf-1000px-1-kopi%202.jpg">
+                <p>Jonas Bonde<br><strong>2190</strong>point</p>
+            </div>
+            <div class="top3VennerVen">
+                <img src="images/profile/profil-jonas-fotograf-1000px-1-kopi%202.jpg">
+                <p>Jonas Bonde<br><strong>1930</strong>point</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<main class="haandvaerker">
 
     <h1>Håndværker</h1>
 
 <section><h5>Lær dansk med fokus på håndværker</h5>
     <section class="search">
-    <img src="images/haandvaerker/search_icon.png"/>
+    <img src="images/ikoner/searchGreen.png"/>
     <input type="text" placeholder="SØG">
     </section>
 </section>
@@ -145,7 +184,7 @@
     </section>
 </section>
 
-<button><a href="fagomraader.html" ><img src="images/fagomraader/left-arrow.png"/></a></button>
+    <img class="tilbageKnap" src="images/ikoner/tilbageIkonGreen.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </main>
